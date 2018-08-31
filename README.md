@@ -17,19 +17,19 @@ sudo -H pip3 install bpython
 git clone git clone https://github.com/sturzl/mvav.git
 ```
 **Test your setup**
-Run
-```sh
-python3 setup_test.py
-```
-Which is a script that runs the following python. It should display an image of a mock track, and print to the command line.
-```python
-import cv2 as cv
-image = cv.imread('images/tapered_nobackground.jpg')
-cv.imshow('image',image)
-cv.waitKey(0)
-cv.destroyAllWindows()
-print('Great Success!')
-```
+* Run this on the command line
+  ```sh
+  python3 setup_test.py
+  ```
+* You should see an image of a mock track and it should print some text. The script contains the following code:
+  ```python
+  import cv2 as cv
+  image = cv.imread('images/tapered_nobackground.jpg')
+  cv.imshow('image',image)
+  cv.waitKey(0)
+  cv.destroyAllWindows()
+  print('Great Success!')
+  ```
 
 ## Reading images from the raspi
 
