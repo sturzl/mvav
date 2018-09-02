@@ -42,10 +42,17 @@
   * straight.jpg - car should got straight
   * left.jpg - car should turn left
   * right.jpg - car should turn right
-* Open which_way.py to see some example code. Edit the image being used to see different output. Run it as follows:
+* Open which_way.py to see some example code. Edit the image being used to see different output. Run it as follows (hit enter to close the image window):
     ```sh
     python3 which_way.py
     ```
+## TODO
+* Verify if any of these steps are worth it, i.e. start with working real world data/car and experiment. Calibration may be necessary for good performance. It may be that it is difficult to threshold well without calibration. Maybe we could just get better at thresholding? Consider processing performance/delay in the performance trade off as well as the actual car/sontro lsignal performance
+* Investigate ways to smooth noise/predict control basedo n images/control signal output with less image processing (maybe right/left/straight is good enouggh with a kalman or soemthing)?
+*  [Camera Calibration](https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html)
+* [Color Correction](https://stackoverflow.com/questions/18897730/how-i-make-color-calibration-in-opencv-using-a-colorchecker)
+* [Color & Contrast Correction](https://stackoverflow.com/questions/19363293/whats-the-fastest-way-to-increase-color-image-contrast-with-opencv-in-python-c)
+* [More contrast nehancement etc](https://www.slideshare.net/yuhuang/image-color-correction-contrast-adjustment)
 
 ## Reading images from the raspi
 
@@ -60,3 +67,6 @@
   
 * [Installing OpenCV](https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/)
 * [Testing OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_image_display/py_image_display.html)
+* [How to find colors in an image](https://www.learnopencv.com/color-spaces-in-opencv-cpp-python/)
+* [How to find the center of a blob](https://www.learnopencv.com/find-center-of-blob-centroid-using-opencv-cpp-python/)
+* [Camera Calibration](https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html)
