@@ -1,4 +1,13 @@
 # MVAV
+## Bringing autonomous vehicles to students!
+
+**The Minimum Viable Autonomous Vehicle** project is just starting! Please reach out to me at mrs175@case.edu if you are interested or have suggestions!
+
+This repository has code and instructions for building a $50 autonomous vehicle. This car can be used for courses and hobbyists focusing on control systems, mobile robotics, machine vision, autonomous robotics and other concepts.
+
+[Several labs have been developed](https://github.com/sturzl/mvavlabs) which teach these concepts (several do not require the car). See https://mvav.github.io for more information.
+
+Thanks for stopping by! - [Marc Sturzl](https://sturzl.com/)
 
 ## Setting up your environment
 **Pre requisites**
@@ -47,8 +56,8 @@
     python3 which_way.py
     ```
 ## TODO
-* Verify if any of these steps are worth it, i.e. start with working real world data/car and experiment. Calibration may be necessary for good performance. It may be that it is difficult to threshold well without calibration. Maybe we could just get better at thresholding? Consider processing performance/delay in the performance trade off as well as the actual car/sontro lsignal performance
-* Investigate ways to smooth noise/predict control basedo n images/control signal output with less image processing (maybe right/left/straight is good enouggh with a kalman or soemthing)?
+* Verify if any of these steps are worth it, i.e. start with working real world data/car and experiment. Calibration may be necessary for good performance. It may be that it is difficult to threshold well without calibration. Maybe we could just get better at thresholding? Consider processing performance/delay in the performance trade off as well as the actual car/sontrol signal performance
+* Investigate ways to smooth noise/predict control based  n images/control signal output with less image processing (maybe right/left/straight is good enough with a kalman or something)?
 *  [Camera Calibration](https://docs.opencv.org/2.4/doc/tutorials/calib3d/camera_calibration/camera_calibration.html)
 * [Color Correction](https://stackoverflow.com/questions/18897730/how-i-make-color-calibration-in-opencv-using-a-colorchecker)
 * [Color & Contrast Correction](https://stackoverflow.com/questions/19363293/whats-the-fastest-way-to-increase-color-image-contrast-with-opencv-in-python-c)
