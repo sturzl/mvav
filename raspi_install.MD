@@ -8,12 +8,28 @@
 
 * If running desktop version with a mouse but no keyboard then then add file to desktop with the following
    ```
-   ifconfig
-   
-   _wifi_password_
-   
-   sudo raspi-config
-   
+  ifconfig
+
+  _wifi_password_
+
+  sudo raspi-config
+
+  raspberry
+
+  passwd
+
+  sudo 
+
+  _desired_login_password_
+
+  sudo systemctl enable ssh
+  
+  sudo systemctl start ssh
+
+  systemctl status sshd
+
+  sudo raspi-config
+ 
    ```
 * Run sudo raspi-config to configure from desktop 
    ```bash
