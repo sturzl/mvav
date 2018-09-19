@@ -8,7 +8,7 @@ GPIO.cleanup()
 
 left_forward = 26
 left_backward = 19
-right_forward = 6
+right_forward = 16
 right_backward = 13
 sleep_time = 1
 
