@@ -9,6 +9,8 @@ This repository has code and instructions for building a $50 autonomous vehicle.
 
 Thanks for stopping by! - [Marc Sturzl](https://sturzl.com/)
 
+## [Parts List](https://docs.google.com/spreadsheets/d/1zfrV9vWzyV_9Q6C362cMNT9BiDgJ18CT2PZndpr9l5A/edit?usp=sharing)
+
 ## Setting up your environment
 **Pre requisites**
 * Python3
