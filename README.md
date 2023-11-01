@@ -1,7 +1,7 @@
 # MVAV
 ## Bringing autonomous vehicles to students!
 
-**The Minimum Viable Autonomous Vehicle** project is just starting! Please reach out to me at averysturzl@case.edu if you are interested or have suggestions!
+**The Minimum Viable Autonomous Vehicle** project is just starting! Please reach out to me at averysturzl@gmail.com if you are interested or have suggestions!
 
 This repository has code and instructions for building a $50 autonomous vehicle. This car can be used for courses and hobbyists focusing on control systems, mobile robotics, machine vision, autonomous robotics and other concepts.
 
